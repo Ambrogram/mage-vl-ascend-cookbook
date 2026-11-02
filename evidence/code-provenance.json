@@ -1,0 +1,98 @@
+[
+  {
+    "source_role": "remote/baseline_image.py",
+    "historical_sha256": "b4e77b04f0302e8f6f16b2b18f8e4d66ad50b22ee2abfa53d6ab12d9a0b320dd",
+    "published_path": "scripts/image_baseline.py",
+    "published_sha256": "b4e77b04f0302e8f6f16b2b18f8e4d66ad50b22ee2abfa53d6ab12d9a0b320dd",
+    "changes": [],
+    "truncated_before": null
+  },
+  {
+    "source_role": "service/model_runtime.py",
+    "historical_sha256": "7cbeb8341adcb8d9f22cab0b671ceb8bb89d771357fefc2954ed0c0eefc285c2",
+    "published_path": "src/mage_ascend/model_runtime.py",
+    "published_sha256": "96827c1c21838a2442cffa905766becf68da0aa53c643975821b246d4526625f",
+    "changes": [
+      "Default experiment paths parameterized",
+      "Default experiment paths parameterized"
+    ],
+    "truncated_before": null
+  },
+  {
+    "source_role": "video-stream/tools/video-baseline.py",
+    "historical_sha256": "db62e38f050f7e5d37652cebc36f24d0577415a8e2e4cb7bad7bedf3a19c1807",
+    "published_path": "src/mage_ascend/video_inputs.py",
+    "published_sha256": "2ffb9e32b97efab9ec474374d56ce20ddb2c7921931ece54bbe0a9c360492165",
+    "changes": [
+      "Default experiment paths parameterized",
+      "Default experiment paths parameterized"
+    ],
+    "truncated_before": "\ndef main():"
+  },
+  {
+    "source_role": "video-stream/gate-torch-adapter.py",
+    "historical_sha256": "2d24317e75a196fb1c8c261b823bafa1bbfca92de7ee0fcbfa2e6fe086584c13",
+    "published_path": "src/mage_ascend/gate_adapter.py",
+    "published_sha256": "2d24317e75a196fb1c8c261b823bafa1bbfca92de7ee0fcbfa2e6fe086584c13",
+    "changes": [],
+    "truncated_before": null
+  },
+  {
+    "source_role": "video-stream/perf-rtsp-20261028/stream_runtime_fast.py",
+    "historical_sha256": "3f50cf7ab2d4676bf635cb44ece0897c773f0e253b55881c93a932b63fa5832b",
+    "published_path": "src/mage_ascend/stream_fast.py",
+    "published_sha256": "a84dee3d50680a1c53c95e63d6d6ca531c822e8b2c3bc39e03131e14fb12f069",
+    "changes": [
+      "Default experiment paths parameterized"
+    ],
+    "truncated_before": null
+  },
+  {
+    "source_role": "video-stream/perf-rtsp-20261028/rtsp/rtsp_ingest.py",
+    "historical_sha256": "9db0ced491eb37fd3116e7817955093a16aaa505d7caced2751ce4eae7e4a168",
+    "published_path": "src/mage_ascend/rtsp_ingest.py",
+    "published_sha256": "66173faddec862e9572073f0a4727f6a4337dbafb7c5c48dbc975d2a1b76a89d",
+    "changes": [],
+    "truncated_before": null
+  },
+  {
+    "source_role": "video-stream/gate-upstream/mamba_simple.py",
+    "historical_sha256": "a17e4c51b582dc0d4d690a649eba521cd0c1ee3dc8f0473a0967cdc9ec0874e3",
+    "published_path": "src/mage_ascend/gate-upstream/mamba_simple.py",
+    "published_sha256": "a17e4c51b582dc0d4d690a649eba521cd0c1ee3dc8f0473a0967cdc9ec0874e3",
+    "changes": [],
+    "truncated_before": null
+  },
+  {
+    "source_role": "video-stream/gate-upstream/block.py",
+    "historical_sha256": "801aea9125a40c13e776b26ea2895e8afbfb204845a6a28bf4b37d4d86f91f03",
+    "published_path": "src/mage_ascend/gate-upstream/block.py",
+    "published_sha256": "801aea9125a40c13e776b26ea2895e8afbfb204845a6a28bf4b37d4d86f91f03",
+    "changes": [],
+    "truncated_before": null
+  },
+  {
+    "source_role": "video-stream/gate-upstream/selective_scan_interface.py",
+    "historical_sha256": "fe606b4c7e81b47bb091cf59dc474aece1112a6ca01eb6f22309090e56030bc4",
+    "published_path": "src/mage_ascend/gate-upstream/selective_scan_interface.py",
+    "published_sha256": "fe606b4c7e81b47bb091cf59dc474aece1112a6ca01eb6f22309090e56030bc4",
+    "changes": [],
+    "truncated_before": null
+  },
+  {
+    "source_role": "video-stream/gate-upstream/mixer_seq_simple.py",
+    "historical_sha256": "13409d7044e930ea3271e4b8ddceaf8155ec49b8e5ac299fba7bb0df6d80cb21",
+    "published_path": "src/mage_ascend/gate-upstream/mixer_seq_simple.py",
+    "published_sha256": "13409d7044e930ea3271e4b8ddceaf8155ec49b8e5ac299fba7bb0df6d80cb21",
+    "changes": [],
+    "truncated_before": null
+  },
+  {
+    "source_role": "video-stream/gate-upstream/LICENSE",
+    "historical_sha256": "760939b000194d04548ede6a857bbe735d1695d8422ec85955c8e2bd7f4b95c5",
+    "published_path": "src/mage_ascend/gate-upstream/LICENSE",
+    "published_sha256": "40fb02b05f8e220cf68a71dcbc60495da2d8964d5d3939248fb23b6829ad7866",
+    "changes": [],
+    "truncated_before": null
+  }
+]

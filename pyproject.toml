@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "mage-vl-ascend-cookbook"
+version = "0.1.0"
+description = "Evidence-led Mage-VL deployment cookbook for Ascend 910B2"
+readme = "README.en.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = []
+[project.scripts]
+mage-ascend = "mage_ascend.cli:main"
+[tool.setuptools]
+license-files = ["LICENSE", "NOTICE", "third_party/Microsoft-Mage-LICENSE"]
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-data]
+mage_ascend = ["gate-upstream/*.py", "gate-upstream/LICENSE"]

@@ -1,0 +1,56 @@
+{
+  "scope": "historical function/class AST reuse, not fresh NPU validation",
+  "status": "passed",
+  "files": [
+    {
+      "file": "scripts/image_baseline.py",
+      "reused_definitions": 8,
+      "all_definitions_ast_unchanged": true
+    },
+    {
+      "file": "src/mage_ascend/model_runtime.py",
+      "reused_definitions": 9,
+      "all_definitions_ast_unchanged": true
+    },
+    {
+      "file": "src/mage_ascend/video_inputs.py",
+      "reused_definitions": 11,
+      "all_definitions_ast_unchanged": true
+    },
+    {
+      "file": "src/mage_ascend/gate_adapter.py",
+      "reused_definitions": 8,
+      "all_definitions_ast_unchanged": true
+    },
+    {
+      "file": "src/mage_ascend/stream_fast.py",
+      "reused_definitions": 7,
+      "all_definitions_ast_unchanged": true
+    },
+    {
+      "file": "src/mage_ascend/rtsp_ingest.py",
+      "reused_definitions": 3,
+      "all_definitions_ast_unchanged": true
+    },
+    {
+      "file": "src/mage_ascend/gate-upstream/mamba_simple.py",
+      "reused_definitions": 1,
+      "all_definitions_ast_unchanged": true
+    },
+    {
+      "file": "src/mage_ascend/gate-upstream/block.py",
+      "reused_definitions": 1,
+      "all_definitions_ast_unchanged": true
+    },
+    {
+      "file": "src/mage_ascend/gate-upstream/selective_scan_interface.py",
+      "reused_definitions": 6,
+      "all_definitions_ast_unchanged": true
+    },
+    {
+      "file": "src/mage_ascend/gate-upstream/mixer_seq_simple.py",
+      "reused_definitions": 4,
+      "all_definitions_ast_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "evidence_scope": "historical selected-field summary; not raw logs or new public-runtime acceptance",
+  "historical_dates": [
+    "2026-10-27",
+    "2026-10-28"
+  ],
+  "public_prepared": "2026-11-02",
+  "environment": {
+    "hardware": "Ascend910B2",
+    "machine": "aarch64",
+    "python": "3.11.15",
+    "torch": "2.9.0+cpu",
+    "torch_npu": "2.9.0",
+    "CANN_observed": "8.5.1",
+    "transformers": "5.7.0"
+  },
+  "paired_file_stream": {
+    "media_seconds": 30,
+    "source_frames": 1500,
+    "old_client_seconds": 204.5912668,
+    "old_server_seconds": 179.602084,
+    "fast_warm_client_seconds": 38.5180719,
+    "fast_warm_server_seconds": 13.399118997,
+    "gate_logit_max_diff": 0,
+    "generated_tokens": 41,
+    "decisions": [
+      "silence",
+      "silence",
+      "silence",
+      "response"
+    ]
+  },
+  "rtsp": {
+    "media_seconds": 32,
+    "samples": 64,
+    "server_seconds": 34.33729340136051,
+    "decisions": [
+      "silence",
+      "silence",
+      "silence",
+      "silence"
+    ],
+    "rtsp_triggered_llm_accepted": false,
+    "per_frame_dispatch_implemented": false
+  },
+  "public_parameterized_runtime_npu_revalidated": false,
+  "archive_source_hashes": [
+    {
+      "role": "api-baseline-review-001.json",
+      "sha256": "0c7e4f926100edc09c6565aaf06bac7082b530113ec4b669348b9fe1ac1b82e1"
+    },
+    {
+      "role": "video-stream/perf-rtsp-20261028/evidence/paired-fast-equivalence-001.json",
+      "sha256": "56f10015107d1495eb16f7f2c49a017999746e817c5aa10992aec2feeab727ed"
+    },
+    {
+      "role": "video-stream/perf-rtsp-20261028/evidence/feature-byte-equivalence-paired-001.json",
+      "sha256": "a3460e466acfb77479082042cc8d93d5edd70855cbef706d225a21d19bf591e6"
+    },
+    {
+      "role": "video-stream/perf-rtsp-20261028/evidence/rtsp-worldcup-independent-audit-002.json",
+      "sha256": "87bf0c92f980f16481f091f0bbf02e28b21012d70b25a32ae8597b754edbaaa1"
+    },
+    {
+      "role": "video-stream/perf-rtsp-20261028/final-verification-002.json",
+      "sha256": "5c735793c41e793adb678ac5112ee3b72e7dca87642efb5073618f96f6b6b1a4"
+    }
+  ]
+}

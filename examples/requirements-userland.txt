@@ -1,0 +1,8 @@
+# Reference userland ONLY; inspect platform before installation.
+# No Torch/torch_npu/CANN dependency resolution is performed by this repository.
+transformers==5.7.0
+numpy==2.2.6
+opencv-python-headless==4.11.0.86
+safetensors==0.8.0
+# Pillow, einops, accelerate, tokenizers and other Transformers dependencies must
+# already be compatible: inspect import versions and pip check; not a full lockfile.

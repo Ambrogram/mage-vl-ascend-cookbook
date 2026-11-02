@@ -1,0 +1,11 @@
+Original deployment documentation and integration code: MIT (LICENSE).
+Microsoft Mage is an independent upstream project, not affiliated with this cookbook.
+Model code/weights are NOT distributed here; obtain them from their licensors.
+Microsoft Mage source license: third_party/Microsoft-Mage-LICENSE.
+src/mage_ascend/gate-upstream/{mamba_simple.py,block.py,mixer_seq_simple.py,selective_scan_interface.py}
+are unmodified files from state-spaces/mamba v2.2.0, Apache-2.0, retaining their headers;
+full license at src/mage_ascend/gate-upstream/LICENSE. See docs/SOURCES.md for URLs and hashes.
+Runtime AST selection does not remove these license obligations. The adapter and the
+reference are separate implementations of scan arithmetic; no CUDA extension is bundled.
+Torch, torch_npu, Transformers, OpenCV, FFmpeg, PyAV and MediaMTX retain their licenses.
+No weights, test photos/videos, wheels, platform login connector, or private sessions are included.

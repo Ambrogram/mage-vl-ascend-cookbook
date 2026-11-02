@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "errors": [],
+  "scope": "UTF-8/type/path/secret heuristics, syntax, JSON, local links and derivation hashes; not NPU acceptance",
+  "public_runtime_npu_revalidated": false,
+  "offline_unit_tests": {
+    "passed": 10,
+    "failed": 0
+  },
+  "source_ast_equivalence_files": 10,
+  "packaging_status": "wheel_built_installed_and_cli_help_passed",
+  "wheel_sha256": "8ac553ccfc9749b8fc9cd92d38756ad48e9cbffb95a1daeb7c0869aba5ff432c",
+  "wheel_third_party_sources_and_licenses": "verified",
+  "initial_build_failure": {
+    "cause": "missing wheel in default local Python",
+    "resolution": "separate isolated build venv"
+  },
+  "pre_manifest_files_checked": 45,
+  "release_check_status": "passed",
+  "extracted_candidate_check": {
+    "unit_tests_passed": 10,
+    "release_checks": "passed",
+    "manifest_files_verified": 45
+  }
+}
